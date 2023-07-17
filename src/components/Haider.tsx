@@ -5,8 +5,8 @@ type Props = {};
 
 const Haider = (props: Props) => {
   return (
-    <header>
-      <nav>
+    <header className="sticky top-0 max-w-7xl mx-auto z-20 xl:items-center">
+      <nav className="flex justify-between items-start">
         {/* Social Icons */}
         <div className="flex">
           <SocialIcon
@@ -36,11 +36,15 @@ const Haider = (props: Props) => {
           /> */}
         </div>
         {/* Email Link */}
-        <SocialIcon
-          fgColor="gray"
-          bgColor="transparent"
-          url="mailto:<jawwadahmad.edu@gmail.com>"
-        />
+        <div className="flex flex-row items-center text-gray-400 cursor-pointer">
+          <SocialIcon
+            className="cursor-pointer"
+            fgColor="gray"
+            bgColor="transparent"
+            url="mailto:<jawwadahmad.edu@gmail.com>"
+          />
+          <p className="uppercase hidden md:inline-flex">Get In Touch</p>
+        </div>
       </nav>
     </header>
   );
