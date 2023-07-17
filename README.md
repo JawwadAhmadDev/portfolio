@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - [React Social Icons](https://www.npmjs.com/package/react-social-icons) (For Social Icons on the top)
 - [Framer Motion](https://www.framer.com/motion/introduction/) (To add animations)
+- [React-Simple-Typewriter](https://www.npmjs.com/package/react-simple-typewriter) (To add typewriter effect on the text)

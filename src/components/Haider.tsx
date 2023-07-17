@@ -41,11 +41,6 @@ const Haider = (props: Props) => {
             bgColor="transparent"
             url="https://www.instagram.com/haiderkhan/"
           /> */}
-          {/* <SocialIcon
-            fgColor="gray"
-            bgColor="transparent"
-            url="https://www.facebook.com/haiderkhan"
-          /> */}
         </motion.div>
 
         {/* Email Link */}
