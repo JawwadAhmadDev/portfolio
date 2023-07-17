@@ -1,9 +1,26 @@
-import React from "react";
+"use client";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 type Props = {};
 
 const Hero = (props: Props) => {
-  return <div>I am Hero</div>;
+  const [text, count] = useTypewriter({
+    words: [
+      "Hi, The name's JAWWAD AHMAD.",
+      "Crafting digital experiences.",
+      "<Bridging the gap between technology and people. />",
+    ],
+    loop: true,
+    delaySpeed: 2000,
+  });
+  return (
+    <div>
+      <p>
+        <span>{text}</span>
+        <Cursor cursorColor="#b53e16" />
+      </p>
+    </div>
+  );
 };
 
 export default Hero;
