@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Haider from "@/components/Haider";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <h1 className="text-3xl">My Personal Portfolio</h1>
 
       {/* Header */}
+      <Haider />
 
       {/* Hero */}
 
