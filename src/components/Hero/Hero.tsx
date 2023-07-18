@@ -1,5 +1,6 @@
 "use client";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import BackGroundCircles from "./BackGroundCircles";
 
 type Props = {};
 
@@ -15,6 +16,7 @@ const Hero = (props: Props) => {
   });
   return (
     <div>
+      <BackGroundCircles />
       <p>
         <span>{text}</span>
         <span className="text-3xl font-bold">
