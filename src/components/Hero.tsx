@@ -17,7 +17,9 @@ const Hero = (props: Props) => {
     <div>
       <p>
         <span>{text}</span>
-        <Cursor cursorColor="#b53e16" />
+        <span className="text-3xl font-bold">
+          <Cursor cursorColor="#b53e16" />
+        </span>
       </p>
     </div>
   );
