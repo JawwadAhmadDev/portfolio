@@ -7,7 +7,7 @@ type Props = {};
 
 const Haider = (props: Props) => {
   return (
-    <header className="sticky top-0 max-w-7xl mx-auto z-20 xl:items-center">
+    <header className="sticky top-0 max-w-7xl mx-auto z-20 xl:items-center mb-14">
       <nav className="flex justify-between items-start">
         {/* Social Icons */}
         <motion.div

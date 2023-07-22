@@ -3,13 +3,13 @@ import Hero from "@/components/Hero/Hero";
 
 export default function Home() {
   return (
-    <main className="bg-neutral-800 h-screen">
+    <main className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       {/* <h1 className="text-3xl">My Personal Portfolio</h1> */}
 
       <Haider />
 
       {/* Hero */}
-      <section id="hero">
+      <section id="hero" className="snap-center">
         <Hero />
       </section>
 
