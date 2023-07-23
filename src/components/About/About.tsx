@@ -12,14 +12,14 @@ const About = (props: Props) => {
       </h3>
 
       {/* picture with about */}
-      <motion.div
-        initial={{ x: -200 }}
-        whileInView={{ x: 0 }}
+      <motion.img
+        src="/pic.jpg"
+        initial={{ opacity: 0, x: -200 }}
+        whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-      >
-        <Image width="400" height="400" alt="Picture" src={"/pic.jpg"} />
-      </motion.div>
+        className="-mb-20 md:mb-0 flex-shrink-0 h-52 w-52 rounded-full object-cover md:rounded-lg md:w-56 md:h-72 xl:w-[350px] xl:h-[450px]"
+      />
     </div>
   );
 };
