@@ -1,3 +1,4 @@
+import About from "@/components/About/About";
 import Haider from "@/components/Haider";
 import Hero from "@/components/Hero/Hero";
 
@@ -9,11 +10,14 @@ export default function Home() {
       <Haider />
 
       {/* Hero */}
-      <section id="hero" className="snap-center">
+      <section id="hero" className="snap-start">
         <Hero />
       </section>
 
       {/* About */}
+      <section id="about" className="snap-center">
+        <About />
+      </section>
 
       {/* Experiences */}
 
