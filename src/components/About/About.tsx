@@ -18,15 +18,24 @@ const About = (props: Props) => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="-mb-16 md:mb-0 flex-shrink-0 h-52 w-52 rounded-full object-cover md:rounded-lg md:w-56 md:h-72 xl:w-[350px] xl:h-[450px]"
+        className="mt-14 md:mb-0 flex-shrink-0 h-52 w-52 rounded-full object-cover md:rounded-lg md:w-56 md:h-72 xl:w-[350px] xl:h-[450px]"
       />
 
       <div className="space-y-10 px-0 md:px-10">
-        <h3 className="text-3xl font-medium md:font-semibold">
+        <h3 className="text-3xl font-semibold md:font-bold">
           Here is a{" "}
           <span className="underline decoration-yellow-700">little</span>{" "}
           background
         </h3>
+        <p className="text-base md:text-lg">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+          accusamus nemo numquam repellendus suscipit id, necessitatibus aut
+          eveniet quo maxime rerum, voluptas consequuntur voluptate dolor atque,
+          aspernatur neque. Vero, totam. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Natus accusamus nemo numquam repellendus suscipit
+          id, necessitatibus aut eveniet quo maxime rerum, voluptas consequuntur
+          voluptate dolor atque, aspernatur neque. Vero, totam.
+        </p>
       </div>
     </div>
   );
