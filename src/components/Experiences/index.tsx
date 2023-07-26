@@ -1,4 +1,5 @@
 import React from "react";
+import ExperienceCard from "./ExperienceCard";
 
 type Props = {};
 
@@ -11,7 +12,11 @@ const Experiences = (props: Props) => {
 
       {/* Experience Cards */}
       <div>
-        
+        <ExperienceCard />
+        <ExperienceCard />
+        <ExperienceCard />
+        <ExperienceCard />
+        <ExperienceCard />
       </div>
     </div>
   );
