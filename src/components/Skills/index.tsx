@@ -1,10 +1,16 @@
 "use client";
 import { motion } from "framer-motion";
+import Skill from "./Skill";
 type Props = {};
 
 const Skills = (props: Props) => {
   return (
-    <motion.div className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
+    >
       <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
@@ -12,6 +18,24 @@ const Skills = (props: Props) => {
       <h3 className="absolute top-32 uppercase tracking-[3px] text-gray-500 text-sm">
         Hover over a skill for current proficiency
       </h3>
+
+      {/* Skills list */}
+      <div className="grid grid-cols-4 gap-7 lg:gap-10 mt-9">
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+      </div>
     </motion.div>
   );
 };
