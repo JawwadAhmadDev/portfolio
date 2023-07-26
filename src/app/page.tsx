@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Experiences from "@/components/Experiences";
 import Haider from "@/components/Haider";
 import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -10,22 +11,22 @@ export default function Home() {
 
       <Haider />
 
-      {/* Hero */}
       <section id="hero" className="snap-start">
         <Hero />
       </section>
 
-      {/* About */}
       <section id="about" className="snap-center">
         <About />
       </section>
 
-      {/* Experiences */}
       <section id="experience" className="snap-center">
         <Experiences />
       </section>
 
       {/* Skills */}
+      <section id="skills" className="snap-start">
+        <Skills />
+      </section>
 
       {/* Projects */}
 
