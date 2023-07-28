@@ -42,7 +42,10 @@ export default function Home() {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer flex justify-center items-center hover:animate-bounce">
           <div>
-            <HomeIcon className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0" />
+            <img
+              src="/homePic.png"
+              className="h-10 w-10 md:h-12 md:w-12 rounded-full filter grayscale hover:grayscale-0"
+            />
           </div>
         </footer>
       </Link>
