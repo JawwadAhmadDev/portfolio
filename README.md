@@ -40,3 +40,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [React-Simple-Typewriter](https://www.npmjs.com/package/react-simple-typewriter) (To add typewriter effect on the text)
 - [HeroIcons](https://heroicons.com/) (To add icons in contact me section. such as phone, email etc)
 - [React Hook Form](https://react-hook-form.com/get-started) (To valide form)
+- [Tailwind Customize Scrollbar](https://www.npmjs.com/package/tailwind-scrollbar) (Customizing Default scrollbar)
