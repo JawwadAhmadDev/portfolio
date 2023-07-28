@@ -14,6 +14,7 @@ const ContactMe = (props: Props) => {
           <span className="underline decoration-yellow-500/60">Let's talk</span>
         </h4>
 
+        {/* Contact Information */}
         <div className="space-y-8">
           {/* Phone */}
           <div className="flex space-x-5 items-center justify-center">
@@ -31,6 +32,17 @@ const ContactMe = (props: Props) => {
             <p className="text-xl">123 Developers Lane</p>
           </div>
         </div>
+
+        {/* Form */}
+        <form>
+          <div>
+            <input type="text" />
+            <input type="text" />
+          </div>
+          <input type="text" />
+          <textarea />
+          <button>Submit</button>
+        </form>
       </div>
     </div>
   );
