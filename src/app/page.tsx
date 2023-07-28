@@ -40,7 +40,7 @@ export default function Home() {
       </section>
 
       <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer flex justify-center items-center">
+        <footer className="sticky bottom-5 w-full cursor-pointer flex justify-center items-center hover:animate-bounce">
           <div>
             <HomeIcon className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0" />
           </div>
