@@ -1,5 +1,7 @@
 import React from "react";
-import ExperienceCard from "./ExperienceCard";
+import BetterLogics from "./BetterLogics";
+import VirtualTech from "./VirtualTech";
+import Panaverse from "./Panaverse";
 
 type Props = {};
 
@@ -12,9 +14,9 @@ const Experiences = (props: Props) => {
 
       {/* Experience Cards */}
       <div className="mt-20 w-full flex space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-yellow-600/75">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        <BetterLogics />
+        <VirtualTech />
+        <Panaverse />
       </div>
     </div>
   );
