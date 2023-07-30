@@ -28,13 +28,15 @@ const About = (props: Props) => {
           background
         </h3>
         <p className="text-base md:text-lg">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
-          accusamus nemo numquam repellendus suscipit id, necessitatibus aut
-          eveniet quo maxime rerum, voluptas consequuntur voluptate dolor atque,
-          aspernatur neque. Vero, totam. Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Natus accusamus nemo numquam repellendus suscipit
-          id, necessitatibus aut eveniet quo maxime rerum, voluptas consequuntur
-          voluptate dolor atque, aspernatur neque. Vero, totam.
+          I'm a BSCS graduate with an extensive background in Solidity and
+          blockchain technology. Currently, I'm working on full-stack DApps,
+          using Next.js as my preferred front-end technology. My professional
+          journey has focused on leveraging my understanding of Solidity and
+          blockchain to develop innovative, high-impact solutions. With a
+          comprehensive understanding of end-to-end development processes and a
+          commitment to continuous learning, I aim to deliver outstanding
+          results and explore novel opportunities in the world of decentralized
+          applications.
         </p>
       </div>
     </div>

@@ -21,20 +21,39 @@ const Skills = (props: Props) => {
 
       {/* Skills list */}
       <div className="grid grid-cols-4 gap-7 lg:gap-10 mt-9">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        {/* HTML */}
+        <Skill progress={90} logoUrl="/skills/html5.png" directLeft={true} />
+        <Skill progress={85} logoUrl="/skills/css3.png" directLeft={true} />
+        <Skill progress={90} logoUrl="/skills/js.png" directLeft={true} />
+        <Skill progress={90} logoUrl="/skills/tslogo.png" directLeft={true} />
+        <Skill progress={80} logoUrl="/skills/react.png" directLeft={true} />
+        <Skill progress={80} logoUrl="/skills/nextjs.png" directLeft={true} />
+        <Skill progress={80} logoUrl="/skills/tailwind.png" directLeft={true} />
+        <Skill progress={60} logoUrl="/skills/sanity.png" directLeft={true} />
+        <Skill progress={90} logoUrl="/skills/git.png" directLeft={false} />
+        <Skill progress={90} logoUrl="/skills/github.png" directLeft={false} />
+        <Skill
+          progress={100}
+          logoUrl="/skills/metamask.png"
+          directLeft={false}
+        />
+        <Skill
+          progress={90}
+          logoUrl="/skills/postgress.png"
+          directLeft={false}
+        />
+        <Skill
+          progress={100}
+          logoUrl="/skills/solidityLogo.png"
+          directLeft={false}
+        />
+        <Skill progress={80} logoUrl="/skills/web3.jpeg" directLeft={false} />
+        <Skill progress={75} logoUrl="/skills/etherjs.png" directLeft={false} />
+        <Skill
+          progress={100}
+          logoUrl="/skills/msoffice.jpg"
+          directLeft={false}
+        />
       </div>
     </motion.div>
   );
